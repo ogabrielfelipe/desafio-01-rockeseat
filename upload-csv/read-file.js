@@ -32,28 +32,3 @@ fs.createReadStream(csvPath)
 
         
     })
-
-
-/*
-const parser = parse({
-    delimiter: ','
-  });
-
-fs.ReadStream(csvPath)
-
-parser.on('readable', function(){
-let record;
-while ((record = parser.read()) !== null) {
-    tasks.push(record);
-}
-});
-
-parser.on('error', function(err){
-    console.error(err.message);
-  });
-
-parser.on('end', function(){
-    console.log(tasks)
-});
-
-*/
